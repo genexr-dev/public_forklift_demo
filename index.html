@@ -5,9 +5,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Start loading assets right away, to have them (partly) loaded already when they are requested -->
-  <link rel="preload" href="Build//ForkliftWebGLv3.6.data" as="fetch" type="application/octet-stream" crossorigin>
-  <link rel="preload" href="Build/ForkliftWebGLv3.6.framework.js" as="script">
-  <link rel="preload" href="Build/ForkliftWebGLv3.6.wasm" as="fetch" type="application/wasm" crossorigin>
+  <link rel="preload" href="Build//ForkliftWebGLv4.3.data" as="fetch" type="application/octet-stream" crossorigin>
+  <link rel="preload" href="Build/ForkliftWebGLv4.3.framework.js" as="script">
+  <link rel="preload" href="Build/ForkliftWebGLv4.3.wasm" as="fetch" type="application/wasm" crossorigin>
   <title>Forklift Operation (DEMO)</title>
   <style>
     * {
@@ -108,18 +108,18 @@
       <div id="unity-loading-bar-inner"></div>
     </div>
   </div>
-  <script src="Build/ForkliftWebGLv3.6.loader.js"></script>
+  <script src="Build/ForkliftWebGLv4.3.loader.js"></script>
   <script>
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/ForkliftWebGLv3.6.loader.js";
+    var loaderUrl = buildUrl + "/ForkliftWebGLv4.3.loader.js";
     var config = {
-      dataUrl: buildUrl + "/ForkliftWebGLv3.6.data",
-      frameworkUrl: buildUrl + "/ForkliftWebGLv3.6.framework.js",
-      codeUrl: buildUrl + "/ForkliftWebGLv3.6.wasm",
+      dataUrl: buildUrl + "/ForkliftWebGLv4.3.data",
+      frameworkUrl: buildUrl + "/ForkliftWebGLv4.3.framework.js",
+      codeUrl: buildUrl + "/ForkliftWebGLv4.3.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "GeneXR",
       productName: "Forklift Operation (DEMO)",
-      productVersion: "2025.08.22.1040",
+      productVersion: "2025.08.27.2234",
     };
 
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
